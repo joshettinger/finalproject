@@ -1,0 +1,259 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family:'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #FFFAF1;
+}
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.logo {
+  float: left;
+  display: inline;
+  color: #E74C3C;
+  padding-right: 100px;
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.logo h2 {
+  color: #2C3E50;
+}
+
+nav {
+  float: left;
+  display: inline;
+  font-weight: 600;
+  clear: right;
+}
+
+.sublogo {
+  clear: both;
+}
+
+header {
+  background-color: #FFFAF1;
+  color: #FFFAF1;
+  clear: both;
+  border-bottom: 1px solid #E74C3C;
+}
+
+header h2 {
+  color: #2C3E50;
+}
+
+.weeklist {
+  padding-top: 10px;
+}
+
+.weeklist h2 {
+  color: #FFFAF1;
+}
+
+header ul {
+  float: left;
+  padding-top: 12px;
+  padding-left: 125px;
+}
+
+header li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-size: 24px;
+  color: #2C3E50;
+}
+
+main {
+ background-color: #2C3E50;
+}
+
+footer {
+  clear: both;
+  background-color: #E74C3C;
+}
+
+.search {
+  margin-left: 70%;
+  clear: both;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 18px;
+  color: #FFFAF1;
+}
+
+footer h5 {
+  padding: 100px;
+  margin-left: 35%;
+  color: #FFFAF1;
+}
+
+.shows {
+  margin-left: 5%;
+  padding-top: 15px;
+}
+.shows p {
+  float: left;
+  padding-bottom: 40px;
+  clear: right;
+}
+.shows img {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+}
+
+.shows h2 {
+  float: left;
+  color: #FFFAF1;
+}
+
+.shows a {
+  color:#2980B9;
+}
+
+.show {
+  padding-top: 25px;
+  clear: both;
+}
+
+.review {
+  border-top:
+}
+
+.show ul {
+  font-size: 15px;
+  margin-left: 5%;
+}
+
+.show li {
+  padding: 10px;
+}
+
+.search {
+  padding-bottom: 10px;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+form {
+  display: inline;
+  float: left;
+  padding: 15px;
+}
+
+a {
+  color: #E74C3C;
+}
+
+a:hover {
+  color: #36B959;
+}
+
+a:active {
+  color: #2C3E50;
+}
+
+.contribute {
+  padding-top: 10px;
+}
+.contribute h3 {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.sorter h2 {
+  float: left;
+  display: inline;
+  box-sizing: content-box;
+  padding-top: 10px;
+}
+
+.reviews {
+  padding-top: 10px;
+}
+.reviews li {
+  padding: 10px;
+}
