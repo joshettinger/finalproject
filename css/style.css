@@ -62,7 +62,6 @@ a {
   float: left;
   display: inline;
   color: #FFFAF1;
-  padding-right: 100px;
   font-size: 50px;
   margin-top: 10px;
   font-weight: 800;
@@ -79,15 +78,11 @@ nav {
   clear: right;
 }
 
-.sublogo {
-  clear: both;
-}
-
 header {
   background-color: #E74C3C;
   color: #FFFAF1;
   clear: both;
-  border-bottom: 5px solid #E74C3C;
+  border-bottom: 1px solid #FFFAF1;
 }
 
 header h2 {
@@ -105,7 +100,12 @@ header h2 {
 header ul {
   float: left;
   padding-top: 12px;
-  padding-left: 125px;
+  padding-left: 100px;
+}
+
+#findapodcast {
+  display: block;
+  padding: 10px 20px 16px;
 }
 
 header li {
@@ -118,6 +118,7 @@ header li {
 
 main {
  background-color: #2C3E50;
+ border-bottom: 5px solid green;
 }
 
 footer {
@@ -166,10 +167,14 @@ footer h5 {
   margin-left: 5%;
   padding-top: 15px;
 }
+
+.shows a:hover {
+  color: green;
+}
+
 .shows p {
   float: left;
   padding-bottom: 40px;
-  clear: right;
 }
 .shows img {
   display: inline;
@@ -188,7 +193,6 @@ footer h5 {
 
 .show {
   padding-top: 25px;
-  clear: both;
 }
 
 .show ul {
@@ -208,12 +212,6 @@ input {
   font-size: 20px;
   border-radius: 5px;
   width: 90%;
-}
-
-form {
-  display: inline;
-  float: left;
-  padding: 15px;
 }
 
 a {
