@@ -309,3 +309,8 @@ input {
 .findapod2 {
   display: none;
 }
+
+.shows img {
+  height: 150px;
+  width: 150px;
+}
