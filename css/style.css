@@ -65,6 +65,7 @@ header {
   color: #FFFAF1;
   clear: both;
   border-bottom: 5px solid #E30303;
+  text-shadow: 2px 2px black;
 }
 
 .logo {
@@ -95,8 +96,12 @@ nav {
   font-weight: 600;
   clear: both;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 23px;
   text-align: center;
+}
+
+nav a:hover {
+  color: #E30303;
 }
 
 header h2 {
@@ -116,11 +121,12 @@ header li {
   display: inline-block;
   width: 20%;
   font-size: 26px;
-  color: white;
+  color: rgb(211, 223, 143);
 }
 
 main {
  background-color: white;
+ border-bottom: 5px solid #E30303;
 }
 
 footer {
@@ -182,12 +188,13 @@ footer h5 {
   display: inline;
   float: left;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 .shows h2 {
-  float: left;
   color: black;
-  clear: right;
+  display: inline;
+  float: left;
 }
 
 .shows a {
@@ -236,9 +243,11 @@ a:active {
 
 .contribute {
   padding-top: 10px;
+  padding-bottom: 10px;
   color: black;
   text-align: center;
 }
+
 
 .addAShow {
   text-align: left;
@@ -258,6 +267,45 @@ a:active {
 .reviews {
   padding-top: 10px;
 }
+
+
 .reviews li {
   padding: 10px;
+}
+
+.social {
+  display: inline;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.add {
+  font-size: 20px;
+  border-radius: 5px;
+  margin: -bottom: 10px;
+}
+
+.addAShow {
+  display: none;
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+.review1 {
+  margin-top: 10px;
+  clear: both;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.findapod2 {
+  display: none;
 }
