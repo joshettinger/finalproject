@@ -27,11 +27,16 @@
 							<input type="submit" value="Go" id="submit-btn">
 						</form>
 					</div>
+				</div>
 					<nav>
 						<ul>
 							<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/index.html">Home</a></li>
-							<li>Podcasts</li>
-							<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/contribute.html">Contribute</a></li>
+							<li class="podcastslist"><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/podcasts%20page.html">Podcasts ⌄</a></li>
+										<ul class="menudropdown">
+											<li><a href="#">Top Podcasts</a></li>
+											<li><a href="#">By Genre</a></li>
+											<li><a href="#">Alphabetical</a></li>
+										</ul>							<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/contribute.html">Contribute</a></li>
 							<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -39,13 +44,13 @@
 
 				</div>
 
-				</div>
 	</header>
 	    <main>
 				<div class="container">
 					<div class="sorter">
 		      <h2>Top Podcasts</h2>
-						<form>
+						<div class="timesorter">
+						<form class="time-sort">
 							<select id="time-sort">
 								<option>Month</option>
 		          	<option>Day</option>
@@ -54,6 +59,7 @@
 		          	<option>All Time</option>
 							</select>
 						</form>
+					</div>
 					</div>
 						<div class="shows">
 							<div class="show clearfix">
