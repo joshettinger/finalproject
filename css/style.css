@@ -62,7 +62,7 @@ a {
 .logo {
   float: left;
   display: inline;
-  color: #FFFAF1;
+  color: white;
   font-size: 50px;
   margin-top: 10px;
   font-weight: 800;
@@ -80,7 +80,7 @@ nav {
 }
 
 header {
-  background-color: #3498DB;
+  background: black;
   color: #FFFAF1;
   clear: both;
   border-bottom: 1px solid #FFFAF1;
@@ -113,7 +113,7 @@ header li {
   padding-left: 37px;
   padding-right: 5px;
   font-size: 24px;
-  color: #2C3E50;
+  color: #FFFAF1;
 }
 
 main {
