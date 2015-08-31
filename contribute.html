@@ -14,6 +14,7 @@
 
 	</head>
 		<body>
+<<<<<<< HEAD
 	  			<header>
 						<div class="container">
 	  				<div class="logo"><h1>Podcastr</h1>
@@ -37,12 +38,73 @@
 					</div>
 
 	    </header>
+=======
+			<header>
+				<div class="blackback">
+					<div class="container">
+							<div class="logo">
+									<h1>Podcastr</h1>
+									<h2>Not your grandpa's radio.</h2>
+								</div>
+								<div class="search">
+										<form>
+											<input type="text" id="findapodcast" placeholder="Find a podcast...">
+											<input type="submit" value="Search" id="submit-btn">
+										</form>
+									</div>
+								</div>
+								<nav>
+									<ul>
+										<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/index.html">Home</a></li>
+										<li class="podcastslist"><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/podcasts%20page.html">Podcasts ⌄</a></li>
+													<ul class="menudropdown">
+														<li><a href="#">Top Podcasts</a></li>
+														<li><a href="#">By Genre</a></li>
+														<li><a href="#">Alphabetical</a></li>
+													</ul>
+																  						<li>Contribute</li>
+			  						<li><a href="file:///Users/Josh/Desktop/GA%20FEWD/finalproject/contact.html">Contact</a></li>
+									</ul>
+								</nav>
+						</div>
+				</div>
+			</header>
+>>>>>>> Third-Draft
 	    <main>
 				<div class="container">
 					<div class="contribute">
-			      <h2>Help our community grow</h2>
-						<h3>Add a new podcast</h3>
-						<h3>Review existing podcasts/episodes</h3>
+			      <h2>We are a community of podcast lovers.</h2>
+						<br><h2>Every new show and review builds a better resource for long-time fans and new listeners.</h2><br>
+					  <button class="add">Add a Show</button>
+						<button class="review1">Review existing podcasts/episodes</button>
+							<form class="addAShow">
+								<label>Podcast Title</label>
+									<input name="title" type="text" required/>
+									<br>
+								<label>Description (limit 500 characters)</label>
+									<input name="description" type="text" pattern="\d{1,500}" required/>
+									<br>
+								<label>Image</label>
+									<input name="telephone" type="file" />
+									<br>
+								<label>Website</label>
+									<input name="website" type="text" />
+									<br>
+								<label>facebook.com/</label>
+									<input name="facebook" type="text" />
+									<br>
+								<label>Twitter Handle @</label>
+									<input name="twitter" type="text" />
+									<br>
+								<label>Subreddit r/</label>
+									<input name="subreddit" type="text" />
+									<br>
+								<input type="submit" value="Submit" />
+							</form>
+									<form class="findapod2">
+										<input type="text" id="findapodcast" placeholder="Find a podcast...">
+										<input type="submit" value="Search" id="submit-btn">
+									</form>
 					</div>
 				</div>
 	    </main>
@@ -52,7 +114,7 @@
 	      <h5>2015 Podcastr</h5>
 	    </footer>
 
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 				<script src="js/index.js"></script>
 	</body>
 </html>

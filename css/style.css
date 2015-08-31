@@ -48,7 +48,7 @@ body {
   color: #606161;
   font-family:'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #FFFAF1;
+  color: black;
 }
 a {
   text-decoration: none;
@@ -59,31 +59,68 @@ a {
 /* LAYOUT
 /*******************************************/
 
+header {
+  background-image: url(images/Top-100-Podcasts-2.png);
+  background-size: cover;
+  color: #FFFAF1;
+  clear: both;
+  border-bottom: 5px solid #E30303;
+  text-shadow: 2px 2px black;
+}
+
 .logo {
-  float: left;
   display: inline;
+<<<<<<< HEAD
   color: white;
   font-size: 50px;
   margin-top: 10px;
+=======
+  float: left;
+  color: white;
+  font-size: 100px;
+>>>>>>> Third-Draft
   font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 
-.logo h2 {
-  color: #FFFAF1;
+.blackback {
+  background-color: rgba(0, 0, 0, .6);
 }
 
 nav {
-  float: left;
-  display: inline;
-  font-weight: 600;
-  clear: right;
+  background-color: rgba(200, 0, 0, .5);
 }
 
+<<<<<<< HEAD
 header {
   background: black;
   color: #FFFAF1;
   clear: both;
   border-bottom: 1px solid #FFFAF1;
+=======
+.logo h1 {
+  color: white;
+  font-size: 50px;
+}
+.logo h2 {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+nav {
+  display: block;
+  font-weight: 600;
+  clear: both;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #E30303;
+>>>>>>> Third-Draft
 }
 
 header h2 {
@@ -95,39 +132,54 @@ header h2 {
 }
 
 .weeklist h2 {
-  color: #FFFAF1;
-}
-
-header ul {
+  color: black;
+  font-size: 25px;
+  display: inline-block;
   float: left;
+<<<<<<< HEAD
   padding-top: 12px;
   padding-left: 100px;
 }
 
 #findapodcast {
   display: inline;
+=======
+>>>>>>> Third-Draft
 }
 
 header li {
   display: inline-block;
+<<<<<<< HEAD
   padding-left: 37px;
   padding-right: 5px;
   font-size: 24px;
   color: #FFFAF1;
+=======
+  width: 20%;
+  font-size: 26px;
+  color: rgba(173,255,47,.8)
+>>>>>>> Third-Draft
 }
 
 main {
- background-color: #2C3E50;
+ background-color: white;
+ border-bottom: 5px solid #E30303;
 }
 
 footer {
   clear: both;
+<<<<<<< HEAD
   background-color: #E74C3C;
+=======
+  background-color: black;
+>>>>>>> Third-Draft
 }
 
 .search {
-  margin-left: 70%;
-  clear: both;
+  margin-left: 30%;
+  display: inline;
+  float: right;
+  padding-top: 35px;
 }
 
 h1 {
@@ -145,6 +197,8 @@ h3 {
 
 h4 {
   font-size: 17px;
+  float: right;
+  margin-top: 20px;
 }
 
 h5 {
@@ -152,21 +206,24 @@ h5 {
 }
 
 p {
-  font-size: 18px;
-  color: #FFFAF1;
+  font-size: 16px;
+  color: black;
+  text-align: justify;
 }
 
 footer h5 {
   padding: 100px;
   margin-left: 35%;
-  color: #FFFAF1;
+  color: white;
 }
 
 .shows {
   margin-left: 5%;
-  padding-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
+<<<<<<< HEAD
 .shows a:hover {
   color: green;
 }
@@ -174,24 +231,43 @@ footer h5 {
 .shows p {
   float: left;
   padding-bottom: 40px;
+=======
+.shows p {
+>>>>>>> Third-Draft
 }
+
 .shows img {
   display: inline;
   float: left;
   margin-right: 10px;
+  border-radius: 5px;
 }
 
 .shows h2 {
+  color: black;
+  display: inline;
   float: left;
-  color: #FFFAF1;
 }
 
 .shows a {
+<<<<<<< HEAD
   color: #FFFAF1;
 }
 
 .show {
   padding-top: 25px;
+=======
+  color: #E30303;
+  clear: right;
+  display: inline-block;
+}
+
+.show {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #E30303;
+  padding-bottom: 10px;
+>>>>>>> Third-Draft
 }
 
 .show ul {
@@ -207,8 +283,17 @@ footer h5 {
   padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 input {
   font-size: 20px;
+=======
+form {
+  color: black;
+}
+
+input {
+  font-size: 18px;
+>>>>>>> Third-Draft
   border-radius: 5px;
 }
 
@@ -217,19 +302,27 @@ a {
 }
 
 a:hover {
-  color: #2C3E50;
+  color: black;
 }
 
 a:active {
   color: #2C3E50;
 }
 
+button {
+  background-color: white;
+  color: black;
+}
+
 .contribute {
   padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  text-align: center;
 }
-.contribute h3 {
-  padding: 10px;
-  margin-left: 5px;
+
+.addAShow {
+  text-align: left;
 }
 
 .contact {
@@ -246,10 +339,13 @@ a:active {
 .reviews {
   padding-top: 10px;
 }
+
+
 .reviews li {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 
 @media (max-width: 768px) {
   .container {
@@ -321,4 +417,87 @@ a:active {
     text-align: center;
     float: none;
   }
+=======
+.social {
+  display: inline;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.add {
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.addAShow {
+  display: none;
+  font-size: 18px;
+}
+
+input {
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.review1 {
+  margin-top: 10px;
+  clear: both;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.findapod2 {
+  display: none;
+}
+
+.shows img {
+  height: 150px;
+  width: 150px;
+}
+
+.sorter h2{
+padding-right: 10px;
+}
+
+.menudropdown {
+  position: absolute;
+  visibility: hidden;
+  left: 33%;
+  background: rgba(200, 0, 0, .8);
+  text-align: left;
+  box-shadow: 2px 2px black;
+  border-radius: 5px;
+}
+
+.menudropdown li {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 18px;
+}
+
+.stars {
+  display: inline;
+  float: right;
+  margin-right: none;
+}
+
+
+.stars img {
+  width: 150px;
+  height: 30px;
+}
+
+@media {
+
+
+>>>>>>> Third-Draft
 }
