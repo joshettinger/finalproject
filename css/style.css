@@ -79,6 +79,10 @@ header {
   padding-bottom: 45px;
 }
 
+.podcastslist a {
+  white-space: nowrap;
+}
+
 .blackback {
   background-color: rgba(0, 0, 0, .6);
 }
@@ -366,6 +370,7 @@ padding-right: 10px;
   width: 150px;
   height: 30px;
 }
+
 
 @media screen and (max-width: 500px) {
     .container {
