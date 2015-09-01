@@ -89,7 +89,7 @@ header {
 }
 
 nav {
-  background-color: rgba(200, 0, 0, .5);
+  background-color: rgba(200, 0, 0, .7);
 }
 
 <<<<<<< HEAD
@@ -496,8 +496,17 @@ padding-right: 10px;
   height: 30px;
 }
 
+<<<<<<< HEAD
 @media {
 
 
+>>>>>>> Third-Draft
+=======
+@media (max-width: 600px) {
+    li {
+        display: block;
+        clear: both;
+        float: none;
+    }
 >>>>>>> Third-Draft
 }
