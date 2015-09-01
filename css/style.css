@@ -367,10 +367,40 @@ padding-right: 10px;
   height: 30px;
 }
 
-@media screen and (max-width: 600px) {
-    li {
+@media screen and (max-width: 500px) {
+    .container {
+      width: 100%;
+    }
+
+    nav li {
         display: block;
         clear: both;
         float: none;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    .stars img {
+      display: none;
+    }
+
+    .show {
+      padding-right: 10px;
+      margin: none;
+    }
+
+    header {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .logo {
+      margin-left: 10%;
+    }
+
+    .search {
+      margin-right: 20%;
     }
 }
