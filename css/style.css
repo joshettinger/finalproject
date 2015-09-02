@@ -218,6 +218,7 @@ footer h5 {
   border-radius: 5px;
 }
 
+
 .shows h2 {
   color: black;
   display: inline;
@@ -289,7 +290,13 @@ button {
 
 .contact {
   padding: 10px;
+  margin-bottom: 100px;
 }
+
+.email {
+  font-size: 14px;
+}
+
 
 .sorter h2 {
   float: left;
@@ -400,10 +407,16 @@ padding-right: 10px;
         clear: both;
         float: none;
         margin: 0px auto;
+        border-bottom: 1px solid white;
+        width: 100%;
     }
 
     .menudropdown {
       display: none;
+    }
+
+    .weeklist h2 {
+      padding-left: 5px;
     }
 
     header {
