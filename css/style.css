@@ -214,6 +214,7 @@ footer h5 {
 .shows img {
   display: inline;
   float: left;
+  margin-right: 10px;
   border-radius: 5px;
 }
 
@@ -428,7 +429,7 @@ padding-right: 10px;
 
     footer h5 {
       text-align: center;
-      margin: 0 auto;
+      margin: none;
       padding: none;
       float: none;
     }
