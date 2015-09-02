@@ -361,6 +361,8 @@ padding-right: 10px;
   box-shadow: 2px 2px black;
   border-radius: 5px;
   position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .menudropdown li {
@@ -371,7 +373,6 @@ padding-right: 10px;
   border-bottom: 1px solid white;
   font-size: 18px;
   display: block;
-  /*box-sizing: content-box;*/
 }
 
 .stars {
@@ -399,8 +400,8 @@ padding-right: 10px;
         margin: 0 auto;
     }
 
-    nav ul {
-      text-align: center;
+    .menudropdown {
+      display: block;
     }
 
     .stars img {
