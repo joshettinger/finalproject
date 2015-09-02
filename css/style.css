@@ -403,11 +403,6 @@ padding-right: 10px;
     .menudropdown {
       display: none;
 
-    .show {
-      padding-right: 10px;
-      margin: none;
-    }
-
     header {
       text-align: center;
       margin: 0 auto;
@@ -420,5 +415,9 @@ padding-right: 10px;
     .search {
       margin: 0 auto;
       position: fixed;
+    }
+
+    .shows {
+        margin-left: 10px;
     }
 }
