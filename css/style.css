@@ -388,36 +388,49 @@ padding-right: 10px;
 }
 
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width:600px)  {
     .container {
+      max-width: 600px;
       width: 100%;
+      margin: 0px auto;
     }
 
     nav li {
         display: block;
         clear: both;
         float: none;
-        margin: 0 auto;
+        margin: 0px auto;
     }
 
     .menudropdown {
       display: none;
+    }
 
     header {
       text-align: center;
-      margin: 0 auto;
+      margin: 0px auto;
     }
 
     .logo {
-      margin: 0 auto;
+      margin: 0px auto;
+      float: none;
     }
 
     .search {
-      margin: 0 auto;
-      position: fixed;
+      margin: 0px auto;
+      display: block;
+      float: none;
     }
 
     .shows {
-        margin-left: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer h5 {
+      text-align: center;
+      margin: 0 auto;
+      padding: none;
+      float: none;
     }
 }
