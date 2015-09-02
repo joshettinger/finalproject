@@ -83,12 +83,20 @@ header {
   white-space: nowrap;
 }
 
+.podcastslist {
+  position: relative;
+}
+
 .blackback {
   background-color: rgba(0, 0, 0, .6);
 }
 
 nav {
   background-color: rgba(200, 0, 0, .7);
+}
+
+nav ul {
+  position: relative;
 }
 
 .logo h1 {
@@ -108,6 +116,11 @@ nav {
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  position: relative;
+}
+
+nav li {
+  position: relative;
 }
 
 nav a:hover {
@@ -134,6 +147,7 @@ header li {
   width: 20%;
   font-size: 26px;
   color: rgba(173,255,47,.8)
+  position: absolute;
 }
 
 main {
@@ -341,22 +355,23 @@ padding-right: 10px;
 }
 
 .menudropdown {
-  position: absolute;
   visibility: hidden;
-  left: 33%;
   background: rgba(200, 0, 0, .8);
   text-align: left;
   box-shadow: 2px 2px black;
   border-radius: 5px;
+  position: absolute;
 }
 
 .menudropdown li {
-  display: block;
+  clear: both;
   padding: 10px;
-  width: 100%;
+  width: 10%;
   text-align: center;
   border-bottom: 1px solid white;
   font-size: 18px;
+  display: block;
+  box-sizing: content-box;
 }
 
 .stars {
@@ -381,9 +396,10 @@ padding-right: 10px;
         display: block;
         clear: both;
         float: none;
+        margin: 0 auto;
     }
 
-    nav {
+    nav ul {
       text-align: center;
     }
 
@@ -407,5 +423,6 @@ padding-right: 10px;
 
     .search {
       margin-right: 20%;
+      position: fixed;
     }
 }
