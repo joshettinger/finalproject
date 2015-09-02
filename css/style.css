@@ -366,12 +366,12 @@ padding-right: 10px;
 .menudropdown li {
   clear: both;
   padding: 10px;
-  width: 10%;
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid white;
   font-size: 18px;
   display: block;
-  box-sizing: content-box;
+  /*box-sizing: content-box;*/
 }
 
 .stars {
