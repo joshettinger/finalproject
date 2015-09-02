@@ -388,7 +388,7 @@ padding-right: 10px;
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .container {
       width: 100%;
     }
@@ -401,12 +401,7 @@ padding-right: 10px;
     }
 
     .menudropdown {
-      display: block;
-    }
-
-    .stars img {
       display: none;
-    }
 
     .show {
       padding-right: 10px;
@@ -419,11 +414,11 @@ padding-right: 10px;
     }
 
     .logo {
-      margin-left: 10%;
+      margin: 0 auto;
     }
 
     .search {
-      margin-right: 20%;
+      margin: 0 auto;
       position: fixed;
     }
 }
